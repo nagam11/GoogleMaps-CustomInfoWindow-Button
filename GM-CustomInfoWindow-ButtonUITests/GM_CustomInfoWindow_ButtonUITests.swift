@@ -2,7 +2,7 @@
 //  GM_CustomInfoWindow_ButtonUITests.swift
 //  GM-CustomInfoWindow-ButtonUITests
 //
-//  Created by Marla Narazani on 22/03/2017.
+//  Created by Marla Na on 22/03/2017.
 //
 //
 
