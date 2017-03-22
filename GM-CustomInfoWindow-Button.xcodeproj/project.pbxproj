@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AC3DF5E1E831C3B00D01142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC3DF5D1E831C3B00D01142 /* AppDelegate.swift */; };
+		7AC3DF601E831C3B00D01142 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC3DF5F1E831C3B00D01142 /* ViewController.swift */; };
+		7AC3DF631E831C3B00D01142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3DF611E831C3B00D01142 /* Main.storyboard */; };
+		7AC3DF651E831C3B00D01142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3DF641E831C3B00D01142 /* Assets.xcassets */; };
+		7AC3DF681E831C3B00D01142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3DF661E831C3B00D01142 /* LaunchScreen.storyboard */; };
+		7AC3DF731E831C3B00D01142 /* GM_CustomInfoWindow_ButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC3DF721E831C3B00D01142 /* GM_CustomInfoWindow_ButtonTests.swift */; };
+		7AC3DF7E1E831C3B00D01142 /* GM_CustomInfoWindow_ButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC3DF7D1E831C3B00D01142 /* GM_CustomInfoWindow_ButtonUITests.swift */; };
+		7AC3DF8C1E83213E00D01142 /* CustomInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3DF8B1E83213E00D01142 /* CustomInfoWindow.xib */; };
+		7AC3DF8E1E8321DD00D01142 /* CustomInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC3DF8D1E8321DD00D01142 /* CustomInfoWindow.swift */; };
+		8E5D57473C3A83861A997377 /* libPods-GM-CustomInfoWindow-Button.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E32AA9C69A61B2A7BC4AAB8 /* libPods-GM-CustomInfoWindow-Button.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AC3DF6F1E831C3B00D01142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AC3DF521E831C3B00D01142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AC3DF591E831C3B00D01142;
+			remoteInfo = "GM-CustomInfoWindow-Button";
+		};
+		7AC3DF7A1E831C3B00D01142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AC3DF521E831C3B00D01142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AC3DF591E831C3B00D01142;
+			remoteInfo = "GM-CustomInfoWindow-Button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BEB2BF8595D928FC247F2CC /* Pods-GM-CustomInfoWindow-Button.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GM-CustomInfoWindow-Button.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GM-CustomInfoWindow-Button/Pods-GM-CustomInfoWindow-Button.debug.xcconfig"; sourceTree = "<group>"; };
+		4431D8D65FD33F494CCB0A22 /* Pods-GM-CustomInfoWindow-Button.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GM-CustomInfoWindow-Button.release.xcconfig"; path = "Pods/Target Support Files/Pods-GM-CustomInfoWindow-Button/Pods-GM-CustomInfoWindow-Button.release.xcconfig"; sourceTree = "<group>"; };
+		7AC3DF5A1E831C3B00D01142 /* GM-CustomInfoWindow-Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GM-CustomInfoWindow-Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC3DF5D1E831C3B00D01142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AC3DF5F1E831C3B00D01142 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AC3DF621E831C3B00D01142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AC3DF641E831C3B00D01142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AC3DF671E831C3B00D01142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AC3DF691E831C3B00D01142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AC3DF6E1E831C3B00D01142 /* GM-CustomInfoWindow-ButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GM-CustomInfoWindow-ButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC3DF721E831C3B00D01142 /* GM_CustomInfoWindow_ButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GM_CustomInfoWindow_ButtonTests.swift; sourceTree = "<group>"; };
+		7AC3DF741E831C3B00D01142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AC3DF791E831C3B00D01142 /* GM-CustomInfoWindow-ButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GM-CustomInfoWindow-ButtonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC3DF7D1E831C3B00D01142 /* GM_CustomInfoWindow_ButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GM_CustomInfoWindow_ButtonUITests.swift; sourceTree = "<group>"; };
+		7AC3DF7F1E831C3B00D01142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AC3DF8B1E83213E00D01142 /* CustomInfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomInfoWindow.xib; sourceTree = "<group>"; };
+		7AC3DF8D1E8321DD00D01142 /* CustomInfoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInfoWindow.swift; sourceTree = "<group>"; };
+		9E32AA9C69A61B2A7BC4AAB8 /* libPods-GM-CustomInfoWindow-Button.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GM-CustomInfoWindow-Button.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AC3DF571E831C3B00D01142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5D57473C3A83861A997377 /* libPods-GM-CustomInfoWindow-Button.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AC3DF6B1E831C3B00D01142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AC3DF761E831C3B00D01142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B74143771A24A5E12E6EF58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BEB2BF8595D928FC247F2CC /* Pods-GM-CustomInfoWindow-Button.debug.xcconfig */,
+				4431D8D65FD33F494CCB0A22 /* Pods-GM-CustomInfoWindow-Button.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1DA02161E2D50E31379FB92B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E32AA9C69A61B2A7BC4AAB8 /* libPods-GM-CustomInfoWindow-Button.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AC3DF511E831C3B00D01142 = {
+			isa = PBXGroup;
+			children = (
+				7AC3DF5C1E831C3B00D01142 /* GM-CustomInfoWindow-Button */,
+				7AC3DF711E831C3B00D01142 /* GM-CustomInfoWindow-ButtonTests */,
+				7AC3DF7C1E831C3B00D01142 /* GM-CustomInfoWindow-ButtonUITests */,
+				7AC3DF5B1E831C3B00D01142 /* Products */,
+				1B74143771A24A5E12E6EF58 /* Pods */,
+				1DA02161E2D50E31379FB92B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7AC3DF5B1E831C3B00D01142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AC3DF5A1E831C3B00D01142 /* GM-CustomInfoWindow-Button.app */,
+				7AC3DF6E1E831C3B00D01142 /* GM-CustomInfoWindow-ButtonTests.xctest */,
+				7AC3DF791E831C3B00D01142 /* GM-CustomInfoWindow-ButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AC3DF5C1E831C3B00D01142 /* GM-CustomInfoWindow-Button */ = {
+			isa = PBXGroup;
+			children = (
+				7AC3DF5D1E831C3B00D01142 /* AppDelegate.swift */,
+				7AC3DF5F1E831C3B00D01142 /* ViewController.swift */,
+				7AC3DF611E831C3B00D01142 /* Main.storyboard */,
+				7AC3DF641E831C3B00D01142 /* Assets.xcassets */,
+				7AC3DF661E831C3B00D01142 /* LaunchScreen.storyboard */,
+				7AC3DF691E831C3B00D01142 /* Info.plist */,
+				7AC3DF8B1E83213E00D01142 /* CustomInfoWindow.xib */,
+				7AC3DF8D1E8321DD00D01142 /* CustomInfoWindow.swift */,
+			);
+			path = "GM-CustomInfoWindow-Button";
+			sourceTree = "<group>";
+		};
+		7AC3DF711E831C3B00D01142 /* GM-CustomInfoWindow-ButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AC3DF721E831C3B00D01142 /* GM_CustomInfoWindow_ButtonTests.swift */,
+				7AC3DF741E831C3B00D01142 /* Info.plist */,
+			);
+			path = "GM-CustomInfoWindow-ButtonTests";
+			sourceTree = "<group>";
+		};
+		7AC3DF7C1E831C3B00D01142 /* GM-CustomInfoWindow-ButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AC3DF7D1E831C3B00D01142 /* GM_CustomInfoWindow_ButtonUITests.swift */,
+				7AC3DF7F1E831C3B00D01142 /* Info.plist */,
+			);
+			path = "GM-CustomInfoWindow-ButtonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AC3DF591E831C3B00D01142 /* GM-CustomInfoWindow-Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AC3DF821E831C3B00D01142 /* Build configuration list for PBXNativeTarget "GM-CustomInfoWindow-Button" */;
+			buildPhases = (
+				B31710EB0554A87003CED10F /* [CP] Check Pods Manifest.lock */,
+				7AC3DF561E831C3B00D01142 /* Sources */,
+				7AC3DF571E831C3B00D01142 /* Frameworks */,
+				7AC3DF581E831C3B00D01142 /* Resources */,
+				D1A97F8C8A616EE1668C11C1 /* [CP] Embed Pods Frameworks */,
+				A4D62DFCC2FDA79272179257 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GM-CustomInfoWindow-Button";
+			productName = "GM-CustomInfoWindow-Button";
+			productReference = 7AC3DF5A1E831C3B00D01142 /* GM-CustomInfoWindow-Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AC3DF6D1E831C3B00D01142 /* GM-CustomInfoWindow-ButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AC3DF851E831C3B00D01142 /* Build configuration list for PBXNativeTarget "GM-CustomInfoWindow-ButtonTests" */;
+			buildPhases = (
+				7AC3DF6A1E831C3B00D01142 /* Sources */,
+				7AC3DF6B1E831C3B00D01142 /* Frameworks */,
+				7AC3DF6C1E831C3B00D01142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AC3DF701E831C3B00D01142 /* PBXTargetDependency */,
+			);
+			name = "GM-CustomInfoWindow-ButtonTests";
+			productName = "GM-CustomInfoWindow-ButtonTests";
+			productReference = 7AC3DF6E1E831C3B00D01142 /* GM-CustomInfoWindow-ButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AC3DF781E831C3B00D01142 /* GM-CustomInfoWindow-ButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AC3DF881E831C3B00D01142 /* Build configuration list for PBXNativeTarget "GM-CustomInfoWindow-ButtonUITests" */;
+			buildPhases = (
+				7AC3DF751E831C3B00D01142 /* Sources */,
+				7AC3DF761E831C3B00D01142 /* Frameworks */,
+				7AC3DF771E831C3B00D01142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AC3DF7B1E831C3B00D01142 /* PBXTargetDependency */,
+			);
+			name = "GM-CustomInfoWindow-ButtonUITests";
+			productName = "GM-CustomInfoWindow-ButtonUITests";
+			productReference = 7AC3DF791E831C3B00D01142 /* GM-CustomInfoWindow-ButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AC3DF521E831C3B00D01142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					7AC3DF591E831C3B00D01142 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7AC3DF6D1E831C3B00D01142 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7AC3DF591E831C3B00D01142;
+					};
+					7AC3DF781E831C3B00D01142 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7AC3DF591E831C3B00D01142;
+					};
+				};
+			};
+			buildConfigurationList = 7AC3DF551E831C3B00D01142 /* Build configuration list for PBXProject "GM-CustomInfoWindow-Button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AC3DF511E831C3B00D01142;
+			productRefGroup = 7AC3DF5B1E831C3B00D01142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AC3DF591E831C3B00D01142 /* GM-CustomInfoWindow-Button */,
+				7AC3DF6D1E831C3B00D01142 /* GM-CustomInfoWindow-ButtonTests */,
+				7AC3DF781E831C3B00D01142 /* GM-CustomInfoWindow-ButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AC3DF581E831C3B00D01142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC3DF8C1E83213E00D01142 /* CustomInfoWindow.xib in Resources */,
+				7AC3DF681E831C3B00D01142 /* LaunchScreen.storyboard in Resources */,
+				7AC3DF651E831C3B00D01142 /* Assets.xcassets in Resources */,
+				7AC3DF631E831C3B00D01142 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AC3DF6C1E831C3B00D01142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AC3DF771E831C3B00D01142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4D62DFCC2FDA79272179257 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GM-CustomInfoWindow-Button/Pods-GM-CustomInfoWindow-Button-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B31710EB0554A87003CED10F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A97F8C8A616EE1668C11C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GM-CustomInfoWindow-Button/Pods-GM-CustomInfoWindow-Button-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AC3DF561E831C3B00D01142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC3DF601E831C3B00D01142 /* ViewController.swift in Sources */,
+				7AC3DF8E1E8321DD00D01142 /* CustomInfoWindow.swift in Sources */,
+				7AC3DF5E1E831C3B00D01142 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AC3DF6A1E831C3B00D01142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC3DF731E831C3B00D01142 /* GM_CustomInfoWindow_ButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AC3DF751E831C3B00D01142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC3DF7E1E831C3B00D01142 /* GM_CustomInfoWindow_ButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AC3DF701E831C3B00D01142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AC3DF591E831C3B00D01142 /* GM-CustomInfoWindow-Button */;
+			targetProxy = 7AC3DF6F1E831C3B00D01142 /* PBXContainerItemProxy */;
+		};
+		7AC3DF7B1E831C3B00D01142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AC3DF591E831C3B00D01142 /* GM-CustomInfoWindow-Button */;
+			targetProxy = 7AC3DF7A1E831C3B00D01142 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AC3DF611E831C3B00D01142 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AC3DF621E831C3B00D01142 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AC3DF661E831C3B00D01142 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AC3DF671E831C3B00D01142 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AC3DF801E831C3B00D01142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AC3DF811E831C3B00D01142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AC3DF831E831C3B00D01142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BEB2BF8595D928FC247F2CC /* Pods-GM-CustomInfoWindow-Button.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GM-CustomInfoWindow-Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GMCustomerInfoWindow.GM-CustomInfoWindow-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7AC3DF841E831C3B00D01142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4431D8D65FD33F494CCB0A22 /* Pods-GM-CustomInfoWindow-Button.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GM-CustomInfoWindow-Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GMCustomerInfoWindow.GM-CustomInfoWindow-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7AC3DF861E831C3B00D01142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GM-CustomInfoWindow-ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GMCustomerInfoWindow.GM-CustomInfoWindow-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GM-CustomInfoWindow-Button.app/GM-CustomInfoWindow-Button";
+			};
+			name = Debug;
+		};
+		7AC3DF871E831C3B00D01142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GM-CustomInfoWindow-ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GMCustomerInfoWindow.GM-CustomInfoWindow-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GM-CustomInfoWindow-Button.app/GM-CustomInfoWindow-Button";
+			};
+			name = Release;
+		};
+		7AC3DF891E831C3B00D01142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "GM-CustomInfoWindow-ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GMCustomerInfoWindow.GM-CustomInfoWindow-ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GM-CustomInfoWindow-Button";
+			};
+			name = Debug;
+		};
+		7AC3DF8A1E831C3B00D01142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "GM-CustomInfoWindow-ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GMCustomerInfoWindow.GM-CustomInfoWindow-ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GM-CustomInfoWindow-Button";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AC3DF551E831C3B00D01142 /* Build configuration list for PBXProject "GM-CustomInfoWindow-Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC3DF801E831C3B00D01142 /* Debug */,
+				7AC3DF811E831C3B00D01142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AC3DF821E831C3B00D01142 /* Build configuration list for PBXNativeTarget "GM-CustomInfoWindow-Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC3DF831E831C3B00D01142 /* Debug */,
+				7AC3DF841E831C3B00D01142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AC3DF851E831C3B00D01142 /* Build configuration list for PBXNativeTarget "GM-CustomInfoWindow-ButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC3DF861E831C3B00D01142 /* Debug */,
+				7AC3DF871E831C3B00D01142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AC3DF881E831C3B00D01142 /* Build configuration list for PBXNativeTarget "GM-CustomInfoWindow-ButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC3DF891E831C3B00D01142 /* Debug */,
+				7AC3DF8A1E831C3B00D01142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AC3DF521E831C3B00D01142 /* Project object */;
+}
