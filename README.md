@@ -1,7 +1,7 @@
 ## Interactive custom InfoWindow for Google Maps
 ![demo](CustomMarker.gif)
 
-This tutorial is based on Kevin He's [idea](http://kevinxh.github.io/swift/custom-and-interactive-googlemaps-ios-sdk-infowindow.html) for customizing GM InfoWindows.
+This tutorial is based on Kevin He's [idea](http://kevinxh.github.io/swift/custom-and-interactive-googlemaps-ios-sdk-infowindow.html) for customizing GM InfoWindows. Tutorial can be found [here](https://nagam11.github.io/nagam11.github.io/GoogleMaps-custom-InfoWindow/).
 
 ### Setup
 
