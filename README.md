@@ -1,7 +1,6 @@
 ## Interactive custom InfoWindow for Google Maps iOS
+An interactive InfoWindow in Google Maps. Tutorial can be found [here](https://nagam11.github.io/nagam11.github.io/GoogleMaps-custom-InfoWindow/).
 ![demo](CustomMarker.gif)
-
-A way of making info windows in Google Maps interactive (especially clickable buttons). Tutorial can be found [here](https://nagam11.github.io/nagam11.github.io/GoogleMaps-custom-InfoWindow/).
 
 ### Setup
 

@@ -53,7 +53,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         customInfoWindow?.layer.backgroundColor = opaqueWhite.cgColor
         customInfoWindow?.layer.cornerRadius = 8
         customInfoWindow?.center = mapView.projection.point(for: position)
-        customInfoWindow?.center.y -= 140
+        customInfoWindow?.center.y -= 100
         customInfoWindow?.customWindowLabel.text = "This is my Custom Info Window"
         self.mapView.addSubview(customInfoWindow!)
     
@@ -71,7 +71,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
     func mapView(_ mapView: GMSMapView, didChange position: GMSCameraPosition) {
         let position = tappedMarker?.position
         customInfoWindow?.center = mapView.projection.point(for: position!)
-        customInfoWindow?.center.y -= 140
+        customInfoWindow?.center.y -= 100
     }
 }
 
